@@ -5,4 +5,5 @@ in C!
 
 ```bash
 $ make run day=01
+$ make debug day=01
 ```
