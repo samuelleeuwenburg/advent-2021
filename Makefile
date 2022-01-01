@@ -9,7 +9,7 @@ BUILD_DIR=build
 # INCLUDES=-I$(SRC_DIR)/helpers.h
 # SRCS=$(SRC_DIR)/helpers.c
 
-BINS = day01.elf day02.elf day03.elf day04.elf
+BINS = day01.elf day02.elf day03.elf day04.elf day05.elf
 TARGETS = $(patsubst %, $(BUILD_DIR)/%, $(BINS))
 
 $(TARGETS): $(BUILD_DIR)%.elf:$(SRC_DIR)%.c
